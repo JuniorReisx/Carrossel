@@ -1,0 +1,41 @@
+#div1{
+
+    background: aqua;
+    height: 500px;
+    width: 500px;
+}
+#div2{
+    height: 500px;
+    width: 500px;
+    background: rgb(51, 255, 0);
+}
+#div3{
+    height: 500px;
+    width: 500px;
+    background: rgb(76, 0, 255);
+}
+#div4{
+    height: 500px;
+    width: 500px;
+    background: rgb(255, 30, 0);
+}
+#div5{
+    height: 500px;
+    width: 500px;
+    background: rgb(255, 0, 221);
+}
+
+#sessaoPrincipal{
+    padding: 30px;
+  display: grid;
+    grid-auto-flow: column;
+    gap: 2rem;
+    overflow-x: auto; /* Allow horizontal scrolling */
+      scrollbar-width: none; /* Show a thin scrollbar */
+}
+#sessaoBotao{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
